@@ -1,3 +1,5 @@
-const NotFoundPage = () => <>404 not found</>;
+"use client";
 
-export default NotFoundPage;
+import Render from "./[...routes]/page";
+
+export default Render;

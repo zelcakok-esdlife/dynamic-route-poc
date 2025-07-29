@@ -5,7 +5,7 @@ type SiteMap = {
   children?: { [key: string]: SiteMap };
 };
 
-const routes = {
+export const routes = {
   "/": "landing-page-id",
   "/users": "user-listing-page-id",
   "/users/[userId]": "user-profile-page-id",
