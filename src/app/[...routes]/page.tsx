@@ -1,6 +1,6 @@
 "use client";
 
-import { SimulatePageFromAPI } from "@/simulate-page-data/pre-generate-data";
+import { SimulatePageFromAPI } from "@/simulate-page-data";
 import { useSPAHooks } from "@/spa/hook";
 
 const Render = () => {
